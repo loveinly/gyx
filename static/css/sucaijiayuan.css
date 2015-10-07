@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "microsoft yahei";
+	background-color: #eee;
+}
+
+table {
+	
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+	background-color: #fff;
+}
+th {
+	background: #ebf3f0;
+	font-size: 13px;
+	color: #000002;
+	height: 25px;
+	cursor: pointer;
+}
+th, td {
+	text-align: center;
+	border: 1px solid #dcdbdb;
+	padding: 5px 10px;
+}
+#box {
+	position: absolute;
+	display: none;
+	background: #fff;
+	text-align: center;
+	top: 21px;
+	background-color: #fee188;
+	color: #393939;
+	cursor: move;
+    
+}
+#box p {
+	line-height: 1.2;
+}
